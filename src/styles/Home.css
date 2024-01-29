@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.Home, body {
+    background-image: linear-gradient(180deg, darkturquoise 25%, lime 100%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    color: #e1ff79;
+    overflow: background-image hidden;
+}
+
+#footer {
+    margin-top: auto;
+    padding: 1rem;
+}
+
+#homeHeader {
+    text-align: center;
+    padding: 1rem;
+}
+
+#homeContent {
+    flex-grow: 1;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+.Home .Navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1rem;
+    border-top: 1px solid hotpink;
+    border-bottom: 1px solid hotpink;
+}
+
+.Home .Navbar ul li {
+    padding: 10px;
+}
+
+.Home .Navbar ul li a {
+    text-decoration: none;
+    color: green;
+    font-size: 18pt;
+}
+
+.Home .Navbar ul li a:hover {
+    color: red;
+}
+
+
