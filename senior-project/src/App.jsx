@@ -3,8 +3,7 @@ import {createBrowserRouter, RouterProvider, Route, Link, Outlet} from 'react-ro
 import Home from './pages/Home'
 import ErrorPage from './pages/ErrorPage'
 import Belligol from './pages/belligol'
-import Selfies from './pages/Selfies'
-import Socials from './pages/Socials'
+import Team from './pages/Team'
 
 const router = createBrowserRouter([
   {
@@ -16,14 +15,12 @@ const router = createBrowserRouter([
     element: <Belligol />,
   
   },
+  
   {
-    path: '/selfies',
-    element: <Selfies />,
+    path: '/Team',
+    element: <Team />,
   },
-  {
-    path: '/socials',
-    element: <Socials />,
-  },
+  
   {
     path: '*',
     element: <ErrorPage />,

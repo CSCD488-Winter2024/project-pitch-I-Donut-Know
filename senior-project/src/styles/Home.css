@@ -9,12 +9,12 @@ html, body {
 }
 
 .Home, body {
-    background-image: linear-gradient(180deg, darkturquoise 25%, lime 100%);
+    background-color : #FFFFFF;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
-    color: #e1ff79;
-    overflow: background-image hidden;
+    min-height: 100vh;
+    color: #FF5841;
+    overflow: auto;
 }
 
 #footer {
@@ -31,6 +31,8 @@ html, body {
     flex-grow: 1;
     padding: 1rem;
     text-align: center;
+    font-weight: bold;
+    font-size: 28pt;
     
 }
 
@@ -39,8 +41,9 @@ html, body {
     justify-content: space-around;
     list-style: none;
     padding: 1rem;
-    border-top: 1px solid hotpink;
-    border-bottom: 1px solid hotpink;
+    border-top: 2px solid #C53678;
+    border-bottom: 2px solid #C53678;
+ 
 }
 
 .Home .Navbar ul li {
@@ -49,12 +52,14 @@ html, body {
 
 .Home .Navbar ul li a {
     text-decoration: none;
-    color: green;
+    color: #C53678;
     font-size: 18pt;
+    font-weight: bold;
+
 }
 
 .Home .Navbar ul li a:hover {
-    color: red;
+    color: black;
 }
 
 

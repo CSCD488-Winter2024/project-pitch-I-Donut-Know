@@ -1,21 +1,21 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import '../styles/Team.css'
 import donut from '../images/donut.png'
-import '../styles/Home.css'
 
-function Home() {
+function Team() {
   return (
-    <div className='Home'>
+    <div className='Team'>
 
-        <header id='homeHeader'>
-            <img width='100vw' src={donut} alt='Donut' />
+        <header id='teamHeader'>
+          <img width='100vw' src={donut} alt='Donut' />
         </header>
 
         <Navbar />
 
-        <section id='homeContent'>
+        <section id='teamContent'>
 
-            <p>Project Overview:</p>
+            <p>Meet the Team:</p>
 
             
         </section>
@@ -28,4 +28,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Team
