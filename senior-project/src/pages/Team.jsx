@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import '../styles/Team.css'
 import donut from '../images/donut.png'
+import monkey from '../media/monkey.mp4'
+
 
 function Team() {
   return (
@@ -16,6 +18,7 @@ function Team() {
         <section id='teamContent'>
 
             <p>Meet the Team:</p>
+            <video src={monkey} controls width="300" height="560" ></video>
 
             
         </section>
