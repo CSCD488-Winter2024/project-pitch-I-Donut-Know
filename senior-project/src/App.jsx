@@ -2,7 +2,7 @@ import React from 'react'
 import {createBrowserRouter, RouterProvider, Route, Link, Outlet} from 'react-router-dom'
 import Home from './pages/Home'
 import ErrorPage from './pages/ErrorPage'
-import Belligol from './pages/belligol'
+import Belligol from './pages/Belligol'
 import Team from './pages/Team'
 
 const router = createBrowserRouter([
@@ -11,11 +11,10 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: '/belligol',
+    path: '/Belligol',
     element: <Belligol />,
   
   },
-  
   {
     path: '/Team',
     element: <Team />,

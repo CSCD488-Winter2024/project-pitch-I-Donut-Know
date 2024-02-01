@@ -5,7 +5,7 @@ import '../styles/Belligol.css'
 import donut from '../images/donut.png'
 
 
-function belligol() {
+function Belligol() {
   return (
     <div className='Belli'>
 
@@ -45,4 +45,4 @@ function belligol() {
   )
 }
 
-export default belligol
+export default Belligol
